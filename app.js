@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+
+// PORT number 3000 is set up for the local host 
 const PORT = 3000;
 
 // / This will help app.js to read JSON data
