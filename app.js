@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
+
+// / This will help app.js to read JSON data
 const bodyParser = require('body-parser');
+
 const path = require('path');
 
 // Import routes
