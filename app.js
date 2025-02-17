@@ -5,6 +5,7 @@ const PORT = 3000;
 // / This will help app.js to read JSON data
 const bodyParser = require('body-parser');
 
+// Import the 'path' module to work with file paths
 const path = require('path');
 
 // Import routes
